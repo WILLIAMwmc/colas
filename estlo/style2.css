@@ -1,0 +1,102 @@
+/* Estilos CSS */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+
+
+
+  }
+  
+  /* Rest of your CSS styles here... */
+  
+.centrar-texto {
+    text-align: center;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.barra {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.logo__nombre {
+    font-size: 24px;
+    margin: 0;
+}
+
+.logo__bold {
+    font-weight: bold;
+}
+
+.navegacion ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navegacion ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navegacion ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.navegacion ul li a:hover {
+    color: #007bff;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.boton {
+    display: block;
+    padding: 50px;
+    text-align: center;
+    background-color: #259c65;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #00b36b;
+}
+.footer {
+    background-color: #bbfabb;
+    height: 10vh;
+    display: flex;
+    width: 100%;
+    justify-content: center; /* Cambiado a center para centrar el contenido */
+    align-items: center; /* Añadido para centrar verticalmente */
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.Footer-p {
+    color: #000000;
+    font-size: 1.1em;
+    padding: 0.7rem;
+    text-align: center;
+}
+
